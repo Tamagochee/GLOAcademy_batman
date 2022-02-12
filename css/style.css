@@ -101,7 +101,6 @@ h1, h2, h3, h4, h5, h6 {
 .main__rating-wrap {
     display: flex;
     align-items: center;
-
 }
 
 .main__rating-stars {
@@ -121,7 +120,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: .4rem;
 }
 
-.main_rating-number {
+.main__rating-number {
     font-size: 1.2rem;
     line-height: 117%;
 }
@@ -144,14 +143,14 @@ h1, h2, h3, h4, h5, h6 {
     justify-content: center;
     align-items: center;
     max-width: 24.5rem;
-    text-decoration: none;
     font-size: 1.4rem;
     line-height: 114%;
-    color: #ffffff;
     background-color: #151515;
     border-radius: .8rem;
     padding: 2.2rem 7.2rem;
     margin-bottom: 8.8rem;
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .footer {
