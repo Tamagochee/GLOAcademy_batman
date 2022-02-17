@@ -18,18 +18,17 @@ const swiper = new Swiper('.main-slider', {
   let closemenu = document.querySelector('.header__menu-close');
   let menumobile = document.querySelector('header');
 
-  burger.addEventListener('click', () => {
-    menumobile.style.display = 'block';
-  })
-
   closemenu.addEventListener('click', () => {
     menumobile.style.display = 'none';
+  })
+
+  burger.addEventListener('click', () => {
+    menumobile.style.display = 'block';
   })
 
   const modalwindow = document.querySelector('.modal');
   const buttonModal = document.querySelector('.main__button-play');
   
-
   buttonModal.addEventListener('click', (e) => {
     modalwindow.classList.add('active');
   })
