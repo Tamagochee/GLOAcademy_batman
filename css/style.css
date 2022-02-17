@@ -370,6 +370,7 @@ footer .container{
     }
     body {
         background-position-x: 68%;
+	background-size: auto 100%;
     }
     main {
         margin-top: 19.5rem;
