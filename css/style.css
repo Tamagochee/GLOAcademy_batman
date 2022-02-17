@@ -371,6 +371,7 @@ footer .container{
     }
     body {
         background-position-x: 68%;
+	background-size: contain;
 	
     }
     main {
