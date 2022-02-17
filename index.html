@@ -9,37 +9,37 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="/css/swiper-bundle.css">
     <link rel="stylesheet" href="css/style.css">
+    
 </head>
 <body>
-    <header class="header">
-      <div class="container">
-        <div class="header__menu">
+    <header>
+        <div class="container">        
             <div class="header__logo">
                 <img src="img/batlogo.svg" alt="">
             </div>
-            <div class="header__nav">
-                <nav class="header__nav">
-                    <a href="#">Описание</a>
-                    <a href="#">Трейлер</a>
-                    <a href="#">Отзывы</a>
-                </nav>           
+            <nav class="header__nav">
+                <a href="#">Описание</a>
+                <a href="#">Трейлер</a>
+                <a href="#">Отзывы</a>
+            </nav>
+            <div class="header__social">
+                <a class="header__socials-icon" href="#">
+                    <img src="img/twitter.svg" alt="">
+                </a>
+                <a class="header__socials-icon" href="#">
+                    <img src="img/instagram.svg" alt="">
+                </a>
+                <a class="header__socials-icon" href="#">
+                    <img src="img/facebook.svg" alt="">
+                </a>
             </div>
         </div>
-        <div class="header__social">
-            <a class="header__socials-icon" href="#">
-                <img src="img/twitter.svg" alt="">
-            </a>
-            <a class="header__socials-icon" href="#">
-                <img src="img/instagram.svg" alt="">
-            </a>
-            <a class="header__socials-icon" href="#">
-                <img src="img/facebook.svg" alt="">
-            </a>
-        </div>
-      </div>
+        <img class="header__menu-close" src="img/close.svg" alt="">
     </header>
-    <main class="main">
+    
+    <main>
         <div class="container">
             <div class="main__rating">
                 <div class="main__rating-title">2022, боевик, триллер</div>
@@ -80,17 +80,59 @@
                 </div>
             </div>
             <h1 class="h1 main__header">Бэтмен</h1>
-            <div class="main__description">
-                После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением беспощадного возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь под прицелом оказывается сам Бэтмен.
+            <div class="main_description-wrap">
+                <div class="main__description">
+                    После двух лет поисков правосудия на улицах Готэма для своих сограждан Бэтмен становится олицетворением беспощадного возмездия. Когда в городе происходит серия жестоких нападений на представителей элиты, загадочные улики приводят Брюса Уэйна в самые темные закоулки преступного мира. Теперь под прицелом оказывается сам Бэтмен.
+                </div>
+                <div class="main__button-play">
+                    <div class="main__button-dark">
+                        <img src="/img/play_button.svg" alt="">
+                    </div>
+                </div>
             </div>
+            
             <a href="#" class="main__button">Купить билеты</a>
+            <div class="main-slider_wrap">
+                <div class="main-slider swiper">
+                    <div class="swiper-wrapper">
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="/img/slide1.jpg" alt="">
+                            <span>Трейлер #1</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="/img/slide2.jpg" alt="">
+                            <span>Трейлер #2</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="/img/slide1.jpg" alt="">
+                            <span>Трейлер #3</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="/img/slide2.jpg" alt="">
+                            <span>Трейлер #4</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="/img/slide1.jpg" alt="">
+                            <span>Трейлер #5</span>
+                        </div>
+                        <div class="main-slider__slide swiper-slide">
+                            <img src="/img/slide2.jpg" alt="">
+                            <span>Трейлер #6</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="main-slider__arrow">
+                    <img src="/img/arrow.svg" alt="">
+                </div>
+            </div>
+            <img src="/img/burger.svg" alt="" class="burger_button">
         </div>
     </main>
-    <footer class="footer">
+    <footer>
         <div class="container">
-            <div class="footer__copy">
+            <p class="footer__copy">
                 © 2022 The Batman. All right reserved.
-            </div>
+            </p>
             <ul class="footer__menu">
                 <li>
                     <a href="#">Privacy Policy</a>
@@ -104,6 +146,13 @@
             </ul>
         </div>
     </footer>
+    <div class="modal">
+        <div class="modal__inner">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Xq4F2ZpejCs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+    </div>
+    <script src="/js/swiper-bundle.js"></script>
+    <script src="/js/main.js"></script>
 </body>
 
 </html>
