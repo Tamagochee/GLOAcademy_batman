@@ -31,7 +31,7 @@ body {
     justify-content: space-between;
     background: url('../img/background.jpg');
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     background-position-x: center;
     background-position-y: top;
 }
