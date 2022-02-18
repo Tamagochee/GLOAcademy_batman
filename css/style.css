@@ -34,6 +34,7 @@ body {
     background-size: cover;
     background-position-x: center;
     background-position-y: top;
+	overflow: auto;
     
 }
 
@@ -147,7 +148,7 @@ header .container{
 main {
     margin-top: 6.4rem;
     margin-bottom: 10.5rem;
-	overflow: auto;
+	
 }
 
 .header__social {
